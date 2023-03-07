@@ -55,4 +55,3 @@ surrounded_by_water
 water_on_one_side
 white_foreground
 white_peaks
-
