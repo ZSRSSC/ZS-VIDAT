@@ -40,7 +40,7 @@ for val in range(len(mat['labels'])):
 #split
 np.random.seed(2014)	#2014 2015 2016 2017 2018 2019
 np.random.shuffle(labels)
-test_seen = 16
+test_seen = 16   #13 10 7
 test_unseen = len(dir_list) - test_seen
 test_unseen = labels[test_seen:]
 test_seen = labels[0:test_seen]
