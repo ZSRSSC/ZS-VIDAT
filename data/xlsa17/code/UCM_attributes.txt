@@ -31,4 +31,3 @@ has_containers
 has_green_field
 has_rectangular_shape
 has_court
-
