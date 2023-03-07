@@ -12,9 +12,9 @@ $ pip install -r requirements.txt
 ```
 Additionally, we use [Weights & Biases](https://wandb.ai/site) (W&B) to keep track and organize the results of experiments. You may need to follow the [online documentation](https://docs.wandb.ai/quickstart) of W&B to quickstart. To run these codes, [sign up](https://app.wandb.ai/login?signup=true) an online account to track experiments or create a [local wandb server](https://hub.docker.com/r/wandb/local) using docker (recommended).
 
-******Downloading Datasets****** 
+******Downloading datasets****** 
 
-We trained the model on 4 popular ZSL benchmarks: [UCM](http://weegee.vision.ucmerced.edu/datasets/landuse.html), [AID](https://captain-whu.github.io/AID/), [NWPU], and [WHU-RS19]. Please download NWPU AND RS19 datasets on your own way. Following, for the data splits use the code in ./data/xlsa17/code . In order to train the "ZSViDAT", you should firstly download these datasets. Then decompress and organize them as follows: 
+We trained the model on 4 popular ZSL benchmarks: [UCM](http://weegee.vision.ucmerced.edu/datasets/landuse.html), [AID](https://captain-whu.github.io/AID/), [NWPU], and [WHU-RS19]. Please download NWPU and RS19 datasets on your own way. Following, for the data splits use the code in ./data/xlsa17/code . In order to train the "ZSViDAT", you should firstly download these datasets. Then decompress and organize them as follows: 
 ```
 .
 ├── data
@@ -24,7 +24,7 @@ We trained the model on 4 popular ZSL benchmarks: [UCM](http://weegee.vision.ucm
 │   └── RSD/...
 └── ···
 ```
-****Obtaining Visual Features****
+****Obtaining visual features****
 
 In this step, you should run the following commands to extract the visual features of three datasets:
 
