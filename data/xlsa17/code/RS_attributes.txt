@@ -13,7 +13,8 @@ has_green_field
 has_green_patches
 has_ice
 has_intersection
-has_lot	has_markings
+has_lot
+has_markings
 has_water
 has_planes
 has_rail_tracks
@@ -23,4 +24,3 @@ has_shrubs
 has_trees
 has_wrinkles
 white_peaks
-
