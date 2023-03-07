@@ -42,4 +42,3 @@ has_wrinkles
 is_residential
 surrounded_by_field
 water_on_one_side
-
