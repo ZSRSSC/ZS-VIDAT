@@ -7,7 +7,7 @@ This research paper mainly focus on creating visual descriptions, i.e., semantic
 
 **The framework for the ZS-ViDAT**
 
-![](figs/zs-vidat3.jpg)
+![](figs/zs-vidat5.jpg)
 
 **Dependencies to run the ZS-ViDAT**
 
