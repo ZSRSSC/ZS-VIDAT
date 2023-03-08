@@ -3,7 +3,7 @@
 
 This github repository consists of the training code for the paper  "ZS-ViDAT: Visual descriptions using an Attribute-governed Transformer for zero-shot scene classification in remote sensing images". 
 
-This research paper mainly focus on creating visual descriptions, i.e., semantic attributes for the four prominent remote sensing benchmark datasets (i.e., UCM21, AID30, NWPU45, and WHU-RS19). For the UCM21, AID30, NWPU45, and WHU-RS19 datasets, we have created 33, 44, 57, and 26 semantic attributes, respectively. These semantic attributes and attribute over values are available at ./data/xlsa17/code/... .
+This paper mainly focus on creating visual descriptions, i.e., semantic attributes for the four prominent remote sensing benchmark datasets (i.e., UCM21, AID30, NWPU-RESISC45, and WHU-RS19). For each class, we identified the objects that differentiates it from all the other classes and also some common attributes in various classes were also considered. For the UCM21, AID30, NWPU45, and WHU-RS19 datasets, we have created 33, 44, 57, and 26 semantic attributes, respectively. These semantic attributes and attribute over values are available at ./data/xlsa17/code/... .
 
 **The framework for the ZS-ViDAT**
 
