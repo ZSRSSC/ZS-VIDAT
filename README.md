@@ -34,7 +34,9 @@ We trained the model "ZS-VIDAT" on four prominent banchmark datasets of the zero
 
 **Extracting visual features**    
 
-Run the given commands in order to extract the visual features of four datasets:
+Follow the instructions in ZS-ViDAT/data/xlsa17/code/readme.txt file in order to obtain res101.mat and att_splits.mat files, and place them in ZS-ViDAT/data/xlsa17/data/{dataset}/... . 
+
+Run the specified commands in order to extract the visual features of four datasets:
 
 ```
 $ python preprocessing.py --dataset UCM --compression --device cuda:0
