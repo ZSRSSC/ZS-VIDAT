@@ -1,0 +1,7 @@
+farmland
+forest_field
+grassland
+industrial_and_commercial_regions
+parking_lot
+residential_region
+river_and_lake
