@@ -44,6 +44,7 @@ $ python preprocessing.py --dataset AID --compression --device cuda:0
 $ python preprocessing.py --dataset NWPU --compression --device cuda:0
 $ python preprocessing.py --dataset RSD --compression --device cuda:0
 ```
+#Adjust the split_idx value according the dataset file path if you get FileNotFoundError.
 
 **Training ZS-ViDAT**
 
