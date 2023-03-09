@@ -21,7 +21,7 @@ Furthermore, we use [Weights & Biases](https://wandb.ai/site) (W&B) to keep trac
 
 **Downloading datasets**
 
-We trained the model "ZS-VIDAT" on four prominent banchmark datasets of the zero-shot scene classification in remote sensing images: [UCM21](http://weegee.vision.ucmerced.edu/datasets/landuse.html), [AID30](https://captain-whu.github.io/AID/), NWPU45, and WHU-RS19. Please download NWPU and RS19 datasets on your own way. Following, for the data splits use the code in ./data/xlsa17/code . In order to train the "ZSViDAT", first you should download these datasets. Then decompress and organize them as: 
+We trained the model "ZS-VIDAT" on four prominent banchmark datasets of the zero-shot scene classification in remote sensing images: [UCM21](http://weegee.vision.ucmerced.edu/datasets/landuse.html), [AID30](https://captain-whu.github.io/AID/), NWPU45, and WHU-RS19. Please download NWPU and RS19 datasets on your own way. In order to train the "ZSViDAT", first you should download these datasets. Then decompress and organize them as: 
 ```
 .
 ├── data
