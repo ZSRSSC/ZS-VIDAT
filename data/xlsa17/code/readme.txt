@@ -21,7 +21,7 @@ Initially, set the dataset path and run mataw.py file.
 code to obtain att_splits.mat file, according to standard splits in remote sensing, we split the dataset. 
 Inorder to obtain different splits, change the variable test_seen in this file according to standard splis (for eg., test_seen=16 is one of the standard splits in UCM21 dataset (16/5)), and also change random seed for every new split.
 
-Then, place res101.mat and att_splits.mat files in .data/xlsa17/data/{dataset}/...
+Then, place res101.mat and att_splits.mat files in ZS-ViDAT/data/xlsa17/data/{dataset}/...
 
 
 ----------------------------------------------------------------------------
