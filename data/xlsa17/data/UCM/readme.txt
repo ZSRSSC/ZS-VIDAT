@@ -1,1 +1,1 @@
-Add res101.mat anf att_splits.mat files here.
+Add res101.mat and att_splits.mat files here.
