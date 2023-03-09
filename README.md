@@ -32,7 +32,7 @@ We trained the model "ZS-VIDAT" on four prominent banchmark datasets of the zero
 └── ···
 ```
 
-**Extracting visual features**
+**Extracting visual features**    
 
 Run the given commands in order to extract the visual features of four datasets:
 
