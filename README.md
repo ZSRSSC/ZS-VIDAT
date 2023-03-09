@@ -38,14 +38,14 @@ Follow the instructions in ZS-ViDAT/data/xlsa17/code/readme.txt file in order to
 
 Run the specified commands in order to extract the visual features of four datasets:
 
-```
+'''
 $ python preprocessing.py --dataset UCM --compression --device cuda:0 
 $ python preprocessing.py --dataset AID --compression --device cuda:0
 $ python preprocessing.py --dataset NWPU --compression --device cuda:0
 $ python preprocessing.py --dataset RSD --compression --device cuda:0
-```
- #Adjust the split_idx value according the dataset file path if you get FileNotFoundError while running the above code.
 
+#Adjust the split_idx value according the dataset file path if you get FileNotFoundError while running the above code.
+'''
 
 **Training ZS-ViDAT**
 
