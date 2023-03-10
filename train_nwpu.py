@@ -2,7 +2,7 @@ import torch
 import torch.optim as optim
 import torch.nn as nn
 from model import ZSViDAT
-from dataset import UCMDataLoader
+from dataset import NWPUDataLoader
 from helper_func import eval_zs_gzsl
 import numpy as np
 import wandb
@@ -13,7 +13,7 @@ config = wandb.config
 print('Config file from wandb:', config)
 
 # load dataset
-dataloader = UCMDataLoader('.', config.device, is_balance=False)
+dataloader = NWPUDataLoader('.', config.device, is_balance=False)
 
 # set random seed
 seed = config.random_seed
@@ -21,7 +21,7 @@ torch.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)
 np.random.seed(seed)
 
-# TransZero model
+# ZS-ViDAT model
 model = ZSViDAT(config, dataloader.att, dataloader.w2v_att,
                   dataloader.seenclasses, dataloader.unseenclasses).to(config.device)
 optimizer = optim.Adam(model.parameters(), lr=0.0001, weight_decay=0.0001)
