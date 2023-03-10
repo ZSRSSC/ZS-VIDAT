@@ -2,7 +2,7 @@ import torch
 import torch.optim as optim
 import torch.nn as nn
 from model import ZSViDAT
-from dataset import UCMDataLoader
+from dataset import RSDDataLoader
 from helper_func import eval_zs_gzsl
 import numpy as np
 import wandb
@@ -13,7 +13,7 @@ config = wandb.config
 print('Config file from wandb:', config)
 
 # load dataset
-dataloader = UCMDataLoader('.', config.device, is_balance=False)
+dataloader = RSDDataLoader('.', config.device, is_balance=False)
 
 # set random seed
 seed = config.random_seed
