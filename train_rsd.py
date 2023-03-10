@@ -21,7 +21,7 @@ torch.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)
 np.random.seed(seed)
 
-# TransZero model
+# ZS-ViDAT model
 model = ZSViDAT(config, dataloader.att, dataloader.w2v_att,
                   dataloader.seenclasses, dataloader.unseenclasses).to(config.device)
 optimizer = optim.Adam(model.parameters(), lr=0.0001, weight_decay=0.0001)
