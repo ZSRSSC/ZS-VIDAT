@@ -32,13 +32,14 @@ We trained the model "ZS-VIDAT" on four prominent banchmark datasets of the zero
 └── ···
 ```
 Specifically, for the samples of the UCM dataset, organize as: 
+```
 ├── data
 │   ├── UCM/runway/runway89.tif
 |   |__ UCM/river/river35.tif
 |   |__ UCM/sparseresidential/sparseresidential25.tif
 │   |__ ...
 └── ···
-
+```
 **Obtaining res101.mat and att_splits.mat files**
 
 Follow the below given instructions in order to obtain res101.mat and att_splits.mat files, and place them in ZS-VIDAT/data/xlsa17/data/{dataset}/... . 
