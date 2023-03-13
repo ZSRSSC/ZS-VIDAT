@@ -41,11 +41,11 @@ Run the following codes one after the other.
 $ mataw.py
 
 Initially, set the dataset path and run mataw.py file.
-This code will generate {dataset}_img.csv and {dataset}_label.csv files which contains: labels:- label number of a class is its row number in {dataset}classes.txt and image_files:- image sources
+This code will generate {dataset}_img.csv and {dataset}_label.csv files which contains: labels:- label number of a class is its row number in {dataset}_classes.txt and image_files:- image sources
 
 >> mat_create.m
 
-Code to create res101.mat file that contains image_files and labels.
+create res101.mat file with the help of {dataset}_img.csv and {dataset}_label.csv files that contains image_files and labels.
 
 $ dataset_create.py
 
