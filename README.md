@@ -53,7 +53,7 @@ This code will generate {dataset}_img.csv and {dataset}_label.csv files which co
 
 >> mat_create.m
 
-create res101.mat file with the help of {dataset}_img.csv and {dataset}_label.csv and copy this file into ZS-VIDAT/data/xlsa17/code/res101.mat
+This creates res101.mat file with the help of {dataset}_img.csv and {dataset}_label.csv and copy this file into ZS-VIDAT/data/xlsa17/code/res101.mat
 
 $ dataset_create.py
 
