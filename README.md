@@ -38,16 +38,16 @@ Follow the below given instructions in order to obtain res101.mat and att_splits
 
 Run the following codes one after the other.
 
-=====> mataw.py
+$ mataw.py
 
 Initially, set the dataset path and run mataw.py file.
 This code will generate {dataset}_img.csv and {dataset}_label.csv files which contains: labels:- label number of a class is its row number in {dataset}classes.txt and image_files:- image sources
 
-=====> mat_create.m
+$ mat_create.m
 
 Code to create res101.mat file that contains image_files and labels.
 
-=====> dataset_create.py
+$ dataset_create.py
 
 Initially, set the dataset path and run mataw.py file.
 code to obtain att_splits.mat file, according to standard splits in remote sensing, we split the dataset. 
