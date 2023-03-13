@@ -47,6 +47,7 @@ Follow the below given instructions in order to obtain res101.mat and att_splits
 Run the following codes one after the other.
 
 $ cd data/xlsa17/code/
+
 $ mataw.py
 
 Initially, set the dataset path and run mataw.py file.
