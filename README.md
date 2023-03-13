@@ -64,7 +64,9 @@ This code obtains att_splits.mat file based on res101.mat file. According to sta
 Inorder to obtain different splits, change the variable test_seen in this file according to standard splis (for eg., test_seen=16 is one of the standard splits in UCM21 dataset (16/5)), and also change random seed for every new split.
 
 Then, place res101.mat and att_splits.mat files in ZS-VIDAT/data/xlsa17/data/{dataset}/... .
+
 For example:  ZS-VIDAT/data/xlsa17/data/UCM/res101.mat
+
               ZS-VIDAT/data/xlsa17/data/UCM/att_splits.mat
 
 **Extracting visual features**    
