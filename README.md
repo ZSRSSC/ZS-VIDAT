@@ -32,6 +32,31 @@ We trained the model "ZS-VIDAT" on four prominent banchmark datasets of the zero
 └── ···
 ```
 
+**Obtaining res101.mat and att_splits.mat files**
+
+Follow the below given instructions in order to obtain res101.mat and att_splits.mat files, and place them in ZS-VIDAT/data/xlsa17/data/{dataset}/... . 
+
+Run the following codes one after the other.
+--------------------------------------------------------------------------
+		mataw.py
+--------------------------------------------------------------------------
+Initially, set the dataset path and run mataw.py file.
+This code will generate {dataset}_img.csv and {dataset}_label.csv files which contains: labels:- label number of a class is its row number in {dataset}classes.txt and image_files:- image sources
+
+--------------------------------------------------------------------------
+		mat_create.m
+--------------------------------------------------------------------------
+Code to create res101.mat file that contains image_files and labels.
+
+--------------------------------------------------------------------------
+		dataset_create.py
+--------------------------------------------------------------------------
+Initially, set the dataset path and run mataw.py file.
+code to obtain att_splits.mat file, according to standard splits in remote sensing, we split the dataset. 
+Inorder to obtain different splits, change the variable test_seen in this file according to standard splis (for eg., test_seen=16 is one of the standard splits in UCM21 dataset (16/5)), and also change random seed for every new split.
+
+Then, place res101.mat and att_splits.mat files in ZS-VIDAT/data/xlsa17/data/{dataset}/... .
+
 **Extracting visual features**    
 
 Follow the instructions in ZS-ViDAT/data/xlsa17/code/readme.txt file in order to obtain res101.mat and att_splits.mat files, and place them in ZS-ViDAT/data/xlsa17/data/{dataset}/... . 
