@@ -65,8 +65,10 @@ Inorder to obtain different splits, change the variable test_seen in this file a
 
 Then, place res101.mat and att_splits.mat files in ZS-VIDAT/data/xlsa17/data/{dataset}/... .
 
-For example:  ZS-VIDAT/data/xlsa17/data/UCM/res101.mat
-              ZS-VIDAT/data/xlsa17/data/UCM/att_splits.mat
+For example:  
+          ZS-VIDAT/data/xlsa17/data/UCM/res101.mat
+          
+          ZS-VIDAT/data/xlsa17/data/UCM/att_splits.mat
 
 **Extracting visual features**    
 
