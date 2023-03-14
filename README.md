@@ -14,10 +14,14 @@ This paper mainly focus on creating visual descriptions, i.e., semantic attribut
 The implementation of "ZS-ViDAT" is based on Python 3.8.8 and [PyTorch](https://pytorch.org/) 1.8.0. To install all required dependencies:
 ```
 $ pip install -r requirements.txt
+```  
+Furthermore, we use [Weights & Biases](https://wandb.ai/site) (W&B) to keep track and organize the results of experiments. However, in this training code, we set the wandb mode "disabled" for user-friendly. To install wandb: 
 ```
+$ pip install wandb
+```
+<! However, to keep track and organize the results of experiments, you may need to follow the [online documentation](https://docs.wandb.ai/quickstart) of W&B to quickstart. To run these codes, [sign up](https://app.wandb.ai/login?signup=true) an online account to track experiments or create a [local wandb server](https://hub.docker.com/r/wandb/local) using docker (recommended). > 
 
-Furthermore, we use [Weights & Biases](https://wandb.ai/site) (W&B) to keep track and organize the results of experiments. You may need to follow the [online documentation](https://docs.wandb.ai/quickstart) of W&B to quickstart. To run these codes, [sign up](https://app.wandb.ai/login?signup=true) an online account to track experiments or create a [local wandb server](https://hub.docker.com/r/wandb/local) using docker (recommended).
-
+ 
 
 **Downloading datasets**
 
