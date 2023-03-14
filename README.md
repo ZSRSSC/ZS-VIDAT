@@ -51,21 +51,19 @@ $ cd data/xlsa17/code
 $ mataw.py
 
 Initially, set the dataset path and run mataw.py file.
-This code will generate {dataset}_img.csv and {dataset}_label.csv files which contains: labels:- label number of a class is its row number in {dataset}_classes.txt and image_files:- image sources
+This code will generate {dataset}_img.csv and {dataset}_label.csv files.
 
 >> mat_create.m
 
-This creates res101.mat file with the help of {dataset}_img.csv and {dataset}_label.csv and copy this file into ZS-VIDAT/data/xlsa17/code/res101.mat
+This creates res101.mat file with the help of {dataset}_img.csv and {dataset}_label.csv and copy res101.mat file into code folder i.e., ZS-VIDAT/data/xlsa17/code/res101.mat
 
 $ dataset_create.py
 
-Initially, set the dataset path and run mataw.py file.
-This code obtains att_splits.mat file based on res101.mat file. According to standard splits in remote sensing, we split the dataset. 
-Inorder to obtain different splits, change the variable test_seen in this file according to standard splis (for eg., test_seen=16 is one of the standard splits in UCM21 dataset (16/5)), and also change random seed for every new split.
+Initially, set the dataset path and run mataw.py file. This code obtains att_splits.mat file based on res101.mat file. 
 
-Then, place res101.mat and att_splits.mat files in ZS-VIDAT/data/xlsa17/data/{dataset}/... .
+Then, place res101.mat and att_splits.mat files into ZS-VIDAT/data/xlsa17/data/{dataset}/... .
 
-For example: 
+Example for the UCM dataset: 
 
           ZS-VIDAT/data/xlsa17/data/UCM/res101.mat
           
