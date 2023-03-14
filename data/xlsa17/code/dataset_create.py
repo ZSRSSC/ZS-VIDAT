@@ -17,7 +17,7 @@ with open('UCM_Dataset.csv','r') as csvfile:
     else:
       i = 1
       
-X = np.asarray(vals, dtype=np.float)
+X = np.asarray(vals, dtype=np.float64)
 X_normalized = preprocessing.normalize(X, norm='l2')
 X = np.transpose(X)
 X_normalized = np.transpose(X_normalized)
@@ -67,7 +67,7 @@ A = np.reshape(A, (-1, 1))
 B = np.reshape(B, (-1, 1))
 C = np.reshape(C, (-1, 1))
 
-obj_arr = np.zeros((5,), dtype=np.object)
+obj_arr = np.zeros((5,), dtype=np.object_)
 obj_arr[0] = A
 obj_arr[1] = B
 obj_arr[2] = C
