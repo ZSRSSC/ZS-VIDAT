@@ -66,6 +66,7 @@ $ python dataset_create.py
 Initially, set the dataset path and run the dataset_create.py file. This code obtains att_splits.mat file based on res101.mat file. 
 
 Then, place **res101.mat** and **att_splits.mat** files into ZS-VIDAT/data/xlsa17/data/{dataset}/...
+
 Example for the UCM dataset: 
 ```
           ZS-VIDAT/data/xlsa17/data/UCM/res101.mat    
