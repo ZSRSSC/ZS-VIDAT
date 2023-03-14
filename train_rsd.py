@@ -8,7 +8,7 @@ import numpy as np
 import wandb
 
 # init wandb from config file
-wandb.init(project='ZSViDAT', config='wandb_config/rsd_gzsl.yaml')
+wandb.init(project='ZSViDAT', config='wandb_config/rsd_gzsl.yaml', mode="disabled")
 config = wandb.config
 print('Config file from wandb:', config)
 
