@@ -9,7 +9,7 @@ from sklearn import preprocessing
 
 vals = []
 i = 0
-with open('UCM_Dataset.csv','r') as csvfile:
+with open('UCM_Dataset.csv','r') as csvfile: # change {dataset}_Dataset.csv for other datasets
   csvFile = csv.reader(csvfile)
   for lines in csvFile:
     if i != 0:
@@ -24,7 +24,7 @@ X_normalized = np.transpose(X_normalized)
 
 mat = scipy.io.loadmat('res101.mat')
 
-path = "Provide_path_for_the_dataset"
+path = "Provide_path_for_the_dataset" # please provide the dataset path
 
 dir_list = os.listdir(path)
 
@@ -40,7 +40,7 @@ for val in range(len(mat['labels'])):
 #split
 np.random.seed(2014)	#2014 2015 2016 2017 2018 2019
 np.random.shuffle(labels)
-test_seen = 16   #13 10 7
+test_seen = 16   #13 10 7 for UCM, 25, 20, 15, 10 for AID, 35, 30, 25, 20 for NWPU, 15, 12, 9, 6 for RSD datasets
 test_unseen = len(dir_list) - test_seen
 test_unseen = labels[test_seen:]
 test_seen = labels[0:test_seen]
