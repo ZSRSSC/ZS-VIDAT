@@ -15,7 +15,7 @@ The implementation of "ZS-ViDAT" is based on Python 3.8.8 and [PyTorch](https://
 ```
 $ pip install -r requirements.txt
 ```  
-Furthermore, we use [Weights & Biases](https://wandb.ai/site) (W&B) to do experiments. However, in this training code, we set the wandb mode "disabled" for the sake of user-friendly. Just install wandb: 
+Furthermore, we use [Weights & Biases](https://wandb.ai/site) (W&B) to do experiments. However, in this training code, we set the wandb mode="disabled" for the sake of user-friendly. Just install wandb: 
 ```
 $ pip install wandb
 ```
