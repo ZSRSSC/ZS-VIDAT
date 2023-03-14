@@ -19,9 +19,7 @@ Furthermore, we use [Weights & Biases](https://wandb.ai/site) (W&B) to keep trac
 ```
 $ pip install wandb
 ```
-<! However, to keep track and organize the results of experiments, you may need to follow the [online documentation](https://docs.wandb.ai/quickstart) of W&B to quickstart. To run these codes, [sign up](https://app.wandb.ai/login?signup=true) an online account to track experiments or create a [local wandb server](https://hub.docker.com/r/wandb/local) using docker (recommended). > 
-
- 
+Optional: In order to keep track and organize the results of experiments and set the wandb mode "online". You may need to follow the [online documentation](https://docs.wandb.ai/quickstart) of W&B to quickstart. To run these codes, [sign up](https://app.wandb.ai/login?signup=true) an online account to track experiments or create a [local wandb server](https://hub.docker.com/r/wandb/local) using docker (recommended).
 
 **Downloading datasets**
 
