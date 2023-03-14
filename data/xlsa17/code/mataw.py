@@ -7,7 +7,7 @@ import numpy as np
 
 np.random.seed(2015)
 # Get the list of all files and directories
-path = "Provide_path_for_dataset"
+path = "Provide_path_for_dataset" # Provide dataset path
 dir_list = os.listdir(path)
 ac_list = dir_list.copy()
 
@@ -16,7 +16,7 @@ np.random.shuffle(dir_list)
 ac_list.sort()
 images_lt = []
 labels_lt = []
-with open('UCM_img.csv','w') as csvfile:
+with open('UCM_img.csv','w') as csvfile: # change {dataset}_img.csv for other datasets
 	csvwriter = csv.writer(csvfile)
 	csvwriter.writerow(["Image Path"])
 	for val in dir_list:
@@ -27,7 +27,7 @@ with open('UCM_img.csv','w') as csvfile:
 			#print(line)
 			csvwriter.writerow([hel])
 		
-with open('UCM_label.csv','w') as csvfile:
+with open('UCM_label.csv','w') as csvfile:  # change {dataset}_label.csv for other datasets
 	csvwriter = csv.writer(csvfile)
 	csvwriter.writerow(["Label index"])
 	for val in dir_list:
