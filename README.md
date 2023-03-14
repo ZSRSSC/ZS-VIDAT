@@ -58,13 +58,14 @@ Initially, set the dataset path and run the mataw.py file. This code will genera
 ```
 >> mat_create.m
 ```
-This creates res101.mat file with the help of {dataset}_img.csv and {dataset}_label.csv. Then, copy res101.mat file into **code** folder i.e., ZS-VIDAT/data/xlsa17/code/res101.mat
+This creates res101.mat file with the help of {dataset}_img.csv and {dataset}_label.csv.
 
 ```
 $ python dataset_create.py
 ```
-Initially, set the dataset path and run the dataset_create.py file. This code obtains att_splits.mat file based on res101.mat file. Then, place res101.mat and att_splits.mat files into ZS-VIDAT/data/xlsa17/data/{dataset}/... .
+Initially, set the dataset path and run the dataset_create.py file. This code obtains att_splits.mat file based on res101.mat file. 
 
+Then, place res101.mat and att_splits.mat files into ZS-VIDAT/data/xlsa17/data/{dataset}/...
 Example for the UCM dataset: 
 ```
           ZS-VIDAT/data/xlsa17/data/UCM/res101.mat    
